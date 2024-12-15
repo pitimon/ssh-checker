@@ -1,4 +1,4 @@
-FROM alpine:3.18
+FROM alpine:3.21.0
 
 # Install Nginx and PHP-FPM
 RUN apk add --no-cache nginx php81 php81-fpm php81-sockets
